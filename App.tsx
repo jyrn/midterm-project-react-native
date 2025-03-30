@@ -1,4 +1,3 @@
-// App.tsx
 import 'react-native-get-random-values';
 import React from 'react';
 import { NavigationContainer, DefaultTheme, DarkTheme } from '@react-navigation/native';
@@ -7,7 +6,6 @@ import { ThemeProvider, useTheme } from './context/ThemeContext';
 import { JobProvider } from './context/JobContext';
 import BottomTabNavigator from './navigation/BottomTabNavigator';
 
-// Custom navigation theme creator
 const AppContent = () => {
   const { colors, isDarkMode } = useTheme();
 
